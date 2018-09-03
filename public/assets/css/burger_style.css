@@ -4,12 +4,12 @@
 #header {
     font-size: 5rem;
     letter-spacing: 2.5px;
-    color: #ffffff;
+    color: #00CC4A;
     text-shadow:
-    -2px -2px 0 #00CC4A,
-    2px -2px 0 #00CC4A,
-    -2px 2px 0 #00CC4A,
-    2px 2px 0 #00CC4A;
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
     padding: 0 0 30px 0;
     
 }
@@ -38,9 +38,8 @@
 #whichBurger {
     padding: 28px 0;
 }
-#name {
-    width: 300px;
-    height: 100px;
+#ca {
+    width: 200px;
 }
 #name:hover {
     border: 1px solid #00CC4A;

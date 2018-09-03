@@ -14,14 +14,14 @@ router.get("/", function(req, res) {
     });
 });
 
-router.post("/api/burgers", function(req, res) {
+router.post("/", function(req, res) {
     burger.create([
-        "name"
+      "burger_name", "devoured"
     ], [
-        req.body.name
-    ], function(result) {
-        res.json({result});
+      req.body.burger_name, req.body.devoured
+    ], function() {
+      res.redirect("/");
     });
-});
+  });
 
 module.exports = router;

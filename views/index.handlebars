@@ -7,8 +7,8 @@
         </div>
     </div>
     <div class= "row">
-        <div class="col-sm-3"></div>
-        <div id="menu" class= "col-sm-3 text-right">
+        <div class="col-md-1 col-lg-2"></div>
+        <div id="menu" class= "col-sm-6 col-md-5 col-lg-4 text-right">
             <ol>
             {{#each burgers}}
             
@@ -19,7 +19,7 @@
             {{/each}}
             </ol>
         </div>
-        <div id="eaten" class= "col-sm-3">
+        <div id="eaten" class= "col-sm-6 col-md-5 col-lg-4">
             <ol>
             {{#each burgers}}
             
@@ -33,16 +33,20 @@
     </div>
     <div id="whichBurger" class= "row">
         <div class="col-sm-12 text-center">
-            <form class="create-form">
-                <div class="form-group">
-                    <input type= "text" id="name" name="name"></textarea>
-                </div>
-                <button id="submit" type="submit">Submit</button>
-            </form>
+            <form class="create-update-form" action="/" method="POST">
+
+			  <div class="form-group">
+			    <input type="text" id="ca" name="burger_name">
+			  </div>
+			  
+			  <button id="submit" type="submit">Submit Order</button>
+			</form>
             <p>
                 <span class= "info">Enter a burger you want to eat and click the submit button</span>
             </p>
         </div>
     </div>
+
+    
     
 </div>
