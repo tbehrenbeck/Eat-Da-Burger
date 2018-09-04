@@ -1,68 +1,67 @@
 #icon {
-    height: 150px;
+  height: 150px;
 }
 #header {
-    font-size: 5rem;
-    letter-spacing: 2.5px;
-    color: #00CC4A;
-    text-shadow:
-    -1px -1px 0 #ffffff,
-    1px -1px 0 #ffffff,
-    -1px 1px 0 #ffffff,
-    1px 1px 0 #ffffff;
-    padding: 0 0 30px 0;
-    
+  padding: 10px 0 20px 0;
+  font: 400 110px/0.8 "Great Vibes", Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px #00cc4a;
 }
 .label {
-    color: #000000;
+  color: #000000;
 }
 #menu {
-    padding-left: 110px;
-    color: #ffffff;
-    font-size: 2rem;
-    text-shadow:
-    -.5px -.5px 0 #000000,
-    .5px -.5px 0 #000000,
-    -.5px .5px 0 #000000,
-    .5px .5px 0 #000000;
+  color: #ffffff;
+  font-size: 2rem;
+  text-shadow: -0.5px -0.5px 0 #000000, 0.5px -0.5px 0 #000000,
+    -0.5px 0.5px 0 #000000, 0.5px 0.5px 0 #000000;
 }
 #eaten {
-    color: #ffffff;
-    font-size: 2rem;
-    text-shadow:
-    -.5px -.5px 0 #000000,
-    .5px -.5px 0 #000000,
-    -.5px .5px 0 #000000,
-    .5px .5px 0 #000000;
+  color: #ffffff;
+  font-size: 2rem;
+  text-shadow: -0.5px -0.5px 0 #000000, 0.5px -0.5px 0 #000000,
+    -0.5px 0.5px 0 #000000, 0.5px 0.5px 0 #000000;
+}
+.eaten-text {
+  font-size: 3rem;
+}
+#banner {
+  margin: 15px 0 0 50px;
 }
 #whichBurger {
-    padding: 28px 0;
+  padding: 28px 0;
 }
 #ca {
-    width: 200px;
+  width: 200px;
 }
 #name:hover {
-    border: 1px solid #00CC4A;
+  border: 1px solid #00cc4a;
 }
 #submit {
-    padding: 10px 25px;
-    color: white;
-    background-color: #00CC4A;
-    margin: 0 0 15px 0;
+  font-size: 2rem;
+  padding: 10px 25px;
+  color: white;
+  background-color: #00cc4a;
+  margin: 0 0 33px 0;
+}
+.devour {
+  font-size: 2rem;
+  color: white;
+  background-color: #00cc4a;
+  margin: 5px;
 }
 .info {
-    color: #ffffff;
-    font-size: 2rem;
-    text-shadow:
-    -.5px -.5px 0 #000000,
-    .5px -.5px 0 #000000,
-    -.5px .5px 0 #000000,
-    .5px .5px 0 #000000;
+  font: 400 50px/0.8 "Great Vibes", Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px #00cc4a;
+}
+ul li {
+  list-style-position: inside;
 }
 body {
-    background-image: url(/assets/img/elli-o-43179-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url(/assets/img/elli-o-43179-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }

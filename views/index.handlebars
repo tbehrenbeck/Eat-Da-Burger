@@ -1,52 +1,41 @@
-
-<div class= "wrapper">
-    <div class= "row">
-        <div class= "col-sm-12 text-center">
+<div class="wrapper">
+    <div class="row">
+        <div class="col-sm-12 text-center">
             <img id="icon" src="/assets/img/images.png" alt="burger">
             <h1 id="header">Eat-Da-Burger!</h1>
         </div>
     </div>
-    <div class= "row">
-        <div class="col-md-1 col-lg-2"></div>
-        <div id="menu" class= "col-sm-6 col-md-5 col-lg-4 text-right">
-            <ol>
-            {{#each burgers}}
-            
-                <p>
-                  {{this.id}}. {{this.burger_name}}
-                </p>
-        
-            {{/each}}
-            </ol>
+    <div class="row">
+        <div class="col-md-1 col-lg-3"></div>
+        <div id="menu" class="col-sm-12 col-md-5 col-lg-3 text-center">
+            <h3></h3>
+            <ul class="text-center">
+                {{#each burgers}} {{> burgers/burger-block}} {{/each}}
+            </ul>
         </div>
-        <div id="eaten" class= "col-sm-6 col-md-5 col-lg-4">
-            <ol>
-            {{#each burgers}}
-            
-                <p>
-                  {{this.id}}. {{this.burger_name}}
-                </p>
-        
-            {{/each}}
-            </ol>
+        <div id="eaten" class="col-sm-12 col-md-5 col-lg-3 text-center">
+            <img src="../assets/img/banner.png" id="banner" style="width: 200px" />
+            <ul>
+                {{#each burgers}} {{> burgers/eaten-block}} {{/each}}
+            </ul>
         </div>
     </div>
-    <div id="whichBurger" class= "row">
+    <div id="whichBurger" class="row">
         <div class="col-sm-12 text-center">
             <form class="create-update-form" action="/" method="POST">
 
-			  <div class="form-group">
-			    <input type="text" id="ca" name="burger_name">
-			  </div>
-			  
-			  <button id="submit" type="submit">Submit Order</button>
-			</form>
+                <div class="form-group">
+                    <input type="text" id="ca" name="burger_name">
+                </div>
+
+                <button id="submit" type="submit">Submit Order</button>
+            </form>
             <p>
-                <span class= "info">Enter a burger you want to eat and click the submit button</span>
+                <span class="info">Enter a burger you want to eat and click the submit button</span>
             </p>
         </div>
     </div>
 
-    
-    
+
+
 </div>
