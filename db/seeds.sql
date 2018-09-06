@@ -1,7 +1,7 @@
 
-INSERT INTO items (name) VALUES ('Meeses');
-INSERT INTO items (name) VALUES ('Bobbi');
-INSERT INTO items (name, need) VALUES ('Sylvester', true);
-INSERT INTO items (name, need) VALUES ('Marilyn Manson', true);
-INSERT INTO items (name, need) VALUES ('Joe Biden', true);
-INSERT INTO items (name) VALUES ('Owens');
+INSERT INTO items (name) VALUES ('Apples');
+INSERT INTO items (name) VALUES ('Pasta');
+INSERT INTO items (name, need) VALUES ('Sweet Potatoes', true);
+INSERT INTO items (name, need) VALUES ('Almond Milk', true);
+INSERT INTO items (name, need) VALUES ('Frozen Spinach', true);
+INSERT INTO items (name) VALUES ('Oats');
