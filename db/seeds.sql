@@ -1,5 +1,7 @@
-INSERT INTO burgers (burger_name) VALUES ("Classic Burger");
-INSERT INTO burgers (burger_name) VALUES ("Veggie Burger");
-INSERT INTO burgers (burger_name) VALUES ("South n Peppa");
 
-SELECT * FROM burgers;
+INSERT INTO items (name) VALUES ('Meeses');
+INSERT INTO items (name) VALUES ('Bobbi');
+INSERT INTO items (name, need) VALUES ('Sylvester', true);
+INSERT INTO items (name, need) VALUES ('Marilyn Manson', true);
+INSERT INTO items (name, need) VALUES ('Joe Biden', true);
+INSERT INTO items (name) VALUES ('Owens');
