@@ -79,6 +79,7 @@ ul li {
 @media only screen and (max-width: 480px) {
   #header {
     font-size: 60px;
+    padding: 15px 0 20px 0;
   }
   #buy {
     font-size: 3rem;
@@ -87,7 +88,7 @@ ul li {
     font-size: 3rem;
   }
   ul li {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .delete-item {
     font-size: 1rem;
