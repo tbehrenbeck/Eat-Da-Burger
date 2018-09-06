@@ -76,12 +76,49 @@ ul li {
   margin: 50px 0 0 25px;
 }
 
+@media only screen and (max-width: 320px) {
+  #header {
+    font-size: 65px;
+    padding: 20px 0 20px 0;
+  }
+  #buy {
+    font-size: 4rem;
+  }
+  #bought {
+    font-size: 4rem;
+  }
+  ul li {
+    font-size: 3rem;
+  }
+  .delete-item {
+    font-size: 2rem;
+    width: 50px;
+  }
+  .change-need {
+    font-size: 2rem;
+    width: 50px;
+  }
+  .info {
+    font-size: 2.5rem;
+  }
+  #ca {
+    width: 200px;
+    height: 30px;
+    font-size: 1rem;
+  }
+  #submit {
+    font-size: 2rem;
+    padding: 10px 15px;
+    margin-left: 10px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   #header {
     font-size: 60px;
     padding: 15px 0 20px 0;
   }
-  /* #buy {
+  #buy {
     font-size: 3rem;
   }
   #bought {
@@ -110,5 +147,5 @@ ul li {
     font-size: 1.5rem;
     padding: 5px 10px;
     margin-left: 10px;
-  } */
+  }
 }
