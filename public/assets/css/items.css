@@ -62,6 +62,7 @@ ul li {
   font-size: 1.2rem;
   border-radius: 30px;
   padding: 3px;
+  margin-left: 5px;
 }
 .delete-item {
   color: black;
@@ -73,4 +74,40 @@ ul li {
 }
 .create-form {
   margin: 50px 0 0 25px;
+}
+
+@media only screen and (max-width: 480px) {
+  #header {
+    font-size: 60px;
+  }
+  #buy {
+    font-size: 3rem;
+  }
+  #bought {
+    font-size: 3rem;
+  }
+  ul li {
+    font-size: 1.5rem;
+  }
+  .delete-item {
+    font-size: 1rem;
+    width: 40px;
+  }
+  .change-need {
+    font-size: 1rem;
+    width: 40px;
+  }
+  .info {
+    font-size: 1.5rem;
+  }
+  #ca {
+    width: 150px;
+    height: 20px;
+    font-size: 1rem;
+  }
+  #submit {
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
 }
